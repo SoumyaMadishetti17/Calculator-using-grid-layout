@@ -1,0 +1,40 @@
+
+*{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0;
+}
+h1{
+    font-size: xxx-large;
+    color: teal;
+}
+.box{
+    margin: auto;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px auto;
+    gap: 15px;
+    padding: 2em;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+.box div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#main{
+    grid-column: 1/span 4;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}
